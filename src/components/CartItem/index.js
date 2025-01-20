@@ -41,6 +41,7 @@ const CartItem = props => (
                   size={12}
                   onClick={onClickMinus}
                   data-testid="minus"
+                  type="button"
                 />
               </button>
               <p className="cart-quantity">{quantity}</p>
@@ -50,6 +51,7 @@ const CartItem = props => (
                   size={12}
                   onClick={onClickPlus}
                   data-testid="plus"
+                  type="button"
                 />
               </button>
             </div>
@@ -59,6 +61,7 @@ const CartItem = props => (
                 className="remove-button"
                 type="button"
                 onClick={onRemoveCartItem}
+                data-testid="remove"
               >
                 Remove
               </button>

@@ -3,17 +3,59 @@
   color: #616e7c;
 }
 
-.checkOutButton {
+.triggerBtn {
   background-color: #0b69ff;
   color: white;
   padding: 10px;
   border-radius: 5px;
+  border: none;
+  cursor: pointer;
 }
 
-.spanEl{
+.spanEl {
   color: black;
 }
 
-.summaryContainer{
+.summaryContainer {
   align-self: flex-end;
+}
+
+.popupContent {
+  background-color: #e7e8df;
+  width: 500px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.paymentOptionBtn {
+  border: none;
+  width: 300px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.popupButtonsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.selectedOptionBtn {
+  background-color: green;
+  color: #ffffff;
+}
+
+.paymentOptionContainer {
+  list-style-type: none;
+}
+
+.orderSuccessfulContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  color: #ffffff;
+  border-radius: 10px;
 }
