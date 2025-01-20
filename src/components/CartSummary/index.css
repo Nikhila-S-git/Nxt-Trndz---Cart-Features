@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.order {
+  color: #616e7c;
+}
+
+.checkOutButton {
+  background-color: #0b69ff;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.spanEl{
+  color: black;
+}
+
+.summaryContainer{
+  align-self: flex-end;
+}
